@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView textView = findViewById(R.id.tvTest);
         textView.setText(String.valueOf(DemonTestHelper.Plus1(1)));
+        textView.setText(DemonHelloHelper.Go());
     }
 }
